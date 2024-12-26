@@ -72,7 +72,7 @@ public Properties p;
 	@AfterClass
 	public void tearDown() {
 		
-		driver.close();
+		//driver.close();
 		
 		driver.quit();
 		
