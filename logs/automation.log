@@ -31,3 +31,18 @@
 10:42:21.904 [main]  INFO testCases.TC002_LoginTest - ***In Login Page ***********
 10:42:23.147 [main]  INFO testCases.TC002_LoginTest - ***In MyAccount Page ***********
 10:42:23.222 [main]  INFO testCases.TC002_LoginTest - *********Finished TC002_LoginTest*******
+13:11:24.245 [main] DEBUG org.testng.TestNG - suiteXmlPath: "E:\EclipseWorkspace\Opencart2024\master.xml"
+13:11:24.745 [main]  INFO org.testng.internal.Utils - [TestNG] Running:
+  E:\EclipseWorkspace\Opencart2024\master.xml
+
+13:11:30.494 [main]  INFO testCases.TC001_AccountRegistrationTest - Starting the testcase
+13:11:30.716 [main]  INFO testCases.TC001_AccountRegistrationTest - Clicked on My account
+13:11:31.493 [main]  INFO testCases.TC001_AccountRegistrationTest - Clicked on Register
+13:11:31.507 [main]  INFO testCases.TC001_AccountRegistrationTest - Providing Customer Information.....
+13:11:33.570 [main]  INFO testCases.TC001_AccountRegistrationTest - Clicked on My Account Link
+13:11:33.570 [main]  INFO testCases.TC001_AccountRegistrationTest - Finished verify account registration test 
+13:11:39.017 [main]  INFO testCases.TC002_LoginTest - ******Starting TC002_LoginTest***********
+13:11:39.017 [main]  INFO testCases.TC002_LoginTest - ***In Home Page ***********
+13:11:39.697 [main]  INFO testCases.TC002_LoginTest - ***In Login Page ***********
+13:11:41.096 [main]  INFO testCases.TC002_LoginTest - ***In MyAccount Page ***********
+13:11:41.168 [main]  INFO testCases.TC002_LoginTest - *********Finished TC002_LoginTest*******
