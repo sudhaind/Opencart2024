@@ -4,14 +4,35 @@
 
 
 <suite name="MasterSuite">
+	
+	<groups>
+		<run>
+			
+			<include name ="Sanity"/> 
+			<!--<include name ="Master"/>-->
+			
+		<!--	<include name ="Regression"/> -->
+			
+		<!--	<include name ="DataDriven"/> -->
+			
+		</run>
+		
+		
+		
+	</groups>
+	
+	
+	
+	
   <test thread-count="5" name="Test">
 	  
 	<parameter name="os" value="Windows"></parameter>
-	<parameter name="browser" value="firefox"></parameter>
+	<parameter name="browser" value="edge"></parameter>
 	
     <classes>
       <class name="testCases.TC001_AccountRegistrationTest"/>
       <class name="testCases.TC002_LoginTest"/>
+      <class name="testCases.TC004_SearchTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

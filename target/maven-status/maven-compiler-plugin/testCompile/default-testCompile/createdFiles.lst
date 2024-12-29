@@ -11,5 +11,6 @@ Javapractice2024October\Toyota.class
 pageObjects\LoginPage.class
 Javapractice2024October\Cars.class
 pageObjects\BasePage.class
+testCases\TC004_Search.class
 Javapractice2024October\miscSelenium.class
 utilities\DataProviders.class

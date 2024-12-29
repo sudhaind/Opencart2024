@@ -10,7 +10,7 @@
   
   <test  name="Linux-Chrome">
 	  
-	<parameter name="os" value="Linux"></parameter>
+	<parameter name="os" value="linux"></parameter>
 	<parameter name="browser" value="chrome"></parameter>
 	
     <classes>
@@ -18,17 +18,31 @@
     </classes>
   </test> <!-- Test -->
   
-  <!--
+ 
   
   <test  name="Linux-Firefox">
 	  
-	<parameter name="os" value="Linux"></parameter>
+	<parameter name="os" value="linux"></parameter>
 	<parameter name="browser" value="firefox"></parameter>
 	
     <classes>
       <class name="testCases.TC001_AccountRegistrationTest"/>
     </classes>
   </test> 
--->
 
-</suite> <!-- Suite -->
+
+
+
+
+<test  name="Linux-Edge">
+	  
+	<parameter name="os" value="linux"></parameter>
+	<parameter name="browser" value="edge"></parameter>
+	
+    <classes>
+      <class name="testCases.TC001_AccountRegistrationTest"/>
+    </classes>
+  </test> 
+
+
+</suite> 
